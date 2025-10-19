@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/rkneela0912/security-audit-reporter)](https://github.com/rkneela0912/security-audit-reporter/releases) [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Run security audits and post formatted reports on pull requests
+Run security audits and post formatted reports
 
 ## Quick Start
 
@@ -18,8 +18,6 @@ jobs:
     permissions:
       pull-requests: write
       issues: write
-      contents: read
-    
     steps:
       - uses: rkneela0912/security-audit-reporter@v1
         with:
@@ -28,9 +26,9 @@ jobs:
 
 ## Features
 
-- Automated workflow integration
-- Easy configuration
-- Comprehensive documentation
+- Automated GitHub Actions workflow
+- Easy to configure
+- Production-ready
 - MIT licensed
 
 ## Inputs
@@ -47,4 +45,4 @@ jobs:
 
 ⭐ Star this repo if you find it helpful!
 
-For issues or questions, [open an issue](https://github.com/rkneela0912/security-audit-reporter/issues).
+For issues, [open an issue](https://github.com/rkneela0912/security-audit-reporter/issues).
