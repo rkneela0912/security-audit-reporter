@@ -46,3 +46,7 @@ jobs:
 ⭐ Star this repo if you find it helpful!
 
 For issues, [open an issue](https://github.com/rkneela0912/security-audit-reporter/issues).
+
+## 💡 🔒 Catch vulnerabilities early
+
+Make your workflow more efficient with automation!
